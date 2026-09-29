@@ -1,0 +1,11 @@
+{
+  "name": "trending_coins",
+  "version": "1.0.0",
+  "description": "Track Solana coins whose market cap moves 5% up or down",
+  "main": "track-solana.js",
+  "scripts": {
+    "start": "node track-solana.js",
+    "once": "node track-solana.js --once"
+  },
+  "engines": { "node": ">=18" }
+}
