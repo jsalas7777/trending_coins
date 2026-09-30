@@ -5,7 +5,9 @@
   "main": "track-solana.js",
   "scripts": {
     "start": "node track-solana.js",
-    "once": "node track-solana.js --once"
+    "once": "node track-solana.js --once",
+    "rsi": "node rsi-pumpfun.js",
+    "graduating": "node graduating-pumpfun.js"
   },
   "engines": { "node": ">=18" }
 }
